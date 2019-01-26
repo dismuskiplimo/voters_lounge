@@ -1,0 +1,193 @@
+html{
+	
+	background-color:#cceae7;
+}
+
+body{
+	padding-top:50px;
+	background-color:transparent;
+}
+
+.px10top{
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.center{
+	text-align:center;
+}
+
+.style{
+	color:#00a99d;
+	text-shadow:1px 2px 1px #00877d;
+}
+
+.navbar-custom {
+  background-color: #00a99d;
+  border-color: #00887e;
+}
+.navbar-custom .navbar-brand {
+  color: #fff4e9;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #ffdbb6;
+  background-color: transparent;
+}
+.navbar-custom .navbar-text {
+  color: #fff4e9;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #fff4e9;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #fc8800;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #fc8800;
+  background-color: #00887e;
+}
+.navbar-custom .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #dddddd;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #00857c;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #fc8800;
+  border-bottom-color: #fc8800;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  background-color: #00887e;
+  color: #fc8800;
+}
+.navbar-custom .navbar-nav > .open > a .caret,
+.navbar-custom .navbar-nav > .open > a:hover .caret,
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+  border-top-color: #fc8800;
+  border-bottom-color: #fc8800;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #fff4e9;
+  border-bottom-color: #fff4e9;
+}
+@media (max-width: 767) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff4e9;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fc8800;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fc8800;
+    background-color: #00887e;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #fff4e9;
+}
+.navbar-custom .navbar-link:hover {
+  color: #fc8800;
+}
+
+.bs-callout{
+	margin:20px 0;padding:20px;border-left:3px solid #eee
+}
+.bs-callout h4{
+	margin-top:0;margin-bottom:5px
+}.bs-callout p:last-child{
+	margin-bottom:0
+}.bs-callout code{
+	background-color:#fff;
+	border-radius:3px
+}.bs-callout-danger{
+	background-color:#fdf7f7;
+	border-color:#d9534f
+}.bs-callout-danger h4{
+	color:#d9534f
+}
+.bs-callout-warning{
+	background-color:#fcf8f2;
+	border-color:#f0ad4e
+}
+.bs-callout-warning h4{
+	color:#f0ad4e
+}
+.bs-callout-info{
+	background-color:#f4f8fa;
+	border-color:#5bc0de
+}
+.bs-callout-info h4{
+	color:#5bc0de
+}
+
+.light{
+	text-shadow:2px 1px 2px #000;
+	color:#FFF;
+}
+
+.border{
+	border-radius:4px;
+	border:1px solid #000;
+	background-color:rgba(255,255,255,0.6);
+}
+
+.footer{
+	margin-top:50px;
+	min-height:200px;
+	background-color:rgba(100,125,169,0.7);
+	border-top:2px solid #00a99d;
+}
+
+.header{
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color:#00887e;
+}
+
+.full{
+	width:100%;
+}
+
+.flip{
+	transition:0.8s 0.3s linear;
+}
+.flip:hover{
+	transition:0.8s 0.3s linear;
+	transform:rotateX(360deg);
+}
+
+.red{
+	background-color:red;
+}
