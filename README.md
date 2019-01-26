@@ -1,3 +1,3 @@
 # Voters Lounge
 
-Voting system project. PHP 5, &copy; 2015
+Voting system project. PHP 5 &copy; 2015
